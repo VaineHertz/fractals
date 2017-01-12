@@ -6,11 +6,11 @@
 #    By: tpadilla <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/30 12:28:05 by tpadilla          #+#    #+#              #
-#    Updated: 2017/01/11 09:35:30 by tpadilla         ###   ########.fr        #
+#    Updated: 2017/01/11 10:07:22 by tpadilla         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = fdf
+NAME = fractol
 SRC = fractol.c
 OBJ = $(SRC:.c=.o)
 MLX = minilibx_macos/libmlx.a
