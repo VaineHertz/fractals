@@ -6,12 +6,12 @@
 #    By: tpadilla <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/30 12:28:05 by tpadilla          #+#    #+#              #
-#    Updated: 2017/01/11 10:07:22 by tpadilla         ###   ########.fr        #
+#    Updated: 2017/01/12 20:56:23 by tpadilla         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fractol
-SRC = fractol.c
+SRC = fractol.c compute.c hooks.c init_structs.c render.c
 OBJ = $(SRC:.c=.o)
 MLX = minilibx_macos/libmlx.a
 LIBFT = libft/libft.a
